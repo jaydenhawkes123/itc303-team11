@@ -23,5 +23,9 @@ def home(request):
     return render(request, 'cloudLab/home.html', context)
 
 
+def templateBuilder(request):
+    return render(request, 'cloudLab/templateBuilder.html')
+
+
 def about(request):
     return render(request, 'cloudLab/about.html')
